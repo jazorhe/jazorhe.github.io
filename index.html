@@ -6,7 +6,8 @@
 </head>
 
 <body>
-  <main>
+
+  <header>
 
     <h1> Jazor He </h1>
     <nav>
@@ -16,41 +17,50 @@
       <a href="https://www.duckduckgo.com">Ha!</a>
     </nav>
 
-    <h2>Favorite Foods</h2>
+  </header>
 
+  <main>
+
+    <section>
+      <h2>Favorite Foods</h2>
       <ul>
         <li>Pasta</li>
         <li>Sushi</li>
         <li>Dumpling</li>
         <li>Taco</li>
       </ul>
+    </section>
 
-    <h2>Achievements</h2>
+    <section>
+      <h2>Achievements</h2>
+      <p>
+        Progress in this course (100%)
+        <progress id="course-progress" value="100" max="100"></progress> <br>
+        Progress in the Specializaiton capstone (20%)
+        <progress id="capstone-progress" value="20" max="100"></progress> <br>
+        Progress in life goals (2%)
+        <progress id="lifegoals-progress" value="2" max="100"></progress> <br>
+      </p>
+    </section>
 
-    <p>
-      Progress in this course (100%)
-      <progress id="course-progress" value="100" max="100"></progress> <br>
-      Progress in the Specializaiton capstone (20%)
-      <progress id="capstone-progress" value="20" max="100"></progress> <br>
-      Progress in life goals (2%)
-      <progress id="lifegoals-progress" value="2" max="100"></progress> <br>
-    </p>
-
-    <h2>More About Me</h2>
-
-    <details>
-      <summary>My Childhool</summary>
-      I spent a lot of time playing Pokemon. <br>
-    </details>
+    <section>
+      <h2>More About Me</h2>
+      <details>
+        <summary>My Childhool</summary>
+        I spent a lot of time playing Pokemon. <br>
+      </details>
+    </section>
 
   </main>
 
   <footer>
+
     <img src="http://www.intro-webdesign.com/images/newlogo.png"
     alt="WD4E">
     This page was created by Jazor He &amp; Colleen van Lent.
     To learn more about web design, visit
     <a href="http://www.intro-webdesign.com">Intro to Web Design</a>.
+
   </footer>
 
 </body>
